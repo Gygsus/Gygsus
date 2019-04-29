@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/tahtitiede.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="images/favicon.ico" type="favicon">
+<title> Gygsus </title>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: #00df09;
+}
+
+
+a {
+  font-family: "Courier New", Courier, monospace;
+  color: blue;
+  text-decoration: none;
+}
+
+h1 {
+  text-align:center;
+  font-family: "Courier New", Courier, monospace; 
+  color: black;
+  text-decoration: none;
+
+}
+	
+h2 {
+  text-align:center;
+  font-family: "Courier New", Courier, monospace; 
+  color: black;
+  text-decoration: none;
+
+}	
+
+p  { 
+  text-align:left;
+  font-family: "Courier New", Courier, monospace; 
+  color: black;
+  text-decoration: none;
+  
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+input[type=text] {
+  width: 550px;
+  height: 43px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  box-sizing: borde-box;
+  border: 0px solid #00df09;
+  border-radius: 0px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 0px 0px; 
+  background-repeat: no-repeat;
+  padding: 3px 10px 6px 10px;
+  margin: 0px;
+}	
+
+button {
+  float-right: 0px;
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  background: #00df09;
+  color: white;
+  font-size: 16px;
+  padding: 0px 10px 0px 10px;
+  border: 5px solid #00df09;
+  cursor: pointer;
+}
+
+button:hover {
+	background: red;
+	border: 5px solid red;
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="head">
+<h1 style="color:white;"> GYGSUS </h1>
+<ul>
+  <li><a href="index.html">Etusivu</a></li>
+  <li><a class="active" href="tahtitiede.html">Tähtitiede</a></li>
+  <li><a href="#contact">Projektit</a></li>
+  <li style="float:right"><a href="#about">Yhteydenotto</a></li>
+  <form>
+  <input type="text" name="search" placeholder="Etsi" style="padding-bottom: 0px;">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</ul>
+</div>
+
+<div id="content">
+<h2> Tähtitiede </h2>
+<br>
+<p> Täältä löydät tietoa planeetoista, kuista, tähdistä, mustista aukoista, madonreijistä, galakseista, universumeista ja monesta muusta. </p> 
+<a href="planeetta.html">Planeetat </a>|<a href="kuu.html"> Kuut </a>|<a href="tahti.html"> Tähdet </a>|<a href=""> Mustat aukot </a>|<a href=""> Madonreiät </a>|<a href=""> Galaksit </a>|<a href=""> Universumi </a>|<a href=""> Multiversumi</a>
+<hr>
+<br>
+<p><b> Planeetat:</b></p>
+<p> Planeettoja on kahden tyyppistä, joita ovat kivi- ja kaasuplaneetat. Kiviplaneetat ovat kaasuplaneettoja pienempiä, mutta keskitiheydeltään suurempia. Planeettojen ytimissä on useimmiten rautaydin. Osassa se on aktiivinen eli sula, kun osassa se on voinut kovettua täysin kiinteään olomuotoon.   </p>
+<p> Planeettojen massa on yleensä tuhansien triljoonien ja tuhansien kvadriljoonien luokkaa. Planeetoilla on usein myös kuita, mutta osalta on jäänyt avaruuskumppanit vain haaveeksi, esimerkkinä naapuriplaneetat Merkurius ja Venus. Jupiter taas on kalastanut itselleen ainakin 79 kuuta. Maalla on vain yksi kuu, joka on hyvin suuri suhteessa sen isäntäplaneetan halkaisijaltaan. </p>
+<p> Planeetoilla voi hyvällä arpaonnella esiintyä elämää, mutta sitä ei olla muualta avaruudesta löydetty kuin Maapallolta. Se edellyttää, että planeetalla esiintyy vettä, hiilidioksidia, magneettikentän, kaasukehän, sekä etäisyys kiintotähteen on todella merkittävä. Omassa Linnunradassamme uskotaan olevan jopa 500 miljoonaa planeettaa, joilla voisi olla elämää.  </p>
+<p> Planeetoilla on tyypillisesti myös magneettikenttä, mutta osalla se on joko liian heikko tai lähes olematon, esimerkiksi Mars-planeetta, jonka ytimen uskotaan muuttuneen kiinteäksi, joka tarkoitta että magneettikenttä olisi epäaktiivinen. Maapallolla on toimiva ja melko tehokas magneettikenttä, mutta tiedemiehet ovat tutkineet asiaa tarkemmin ja todenneet sen olevan kuitenkin liian heikko. Jupiter haalii taas ykkössijan, sillä sen magneettikenttä ulottuu jopa Saturnukseen asti. </p>
+<p> Planeetoilla on useimmiten melko symmetrinen kiertorata, mutta voivat olla myös hyvin elliptisiäkin, esimerkiksi hypoteettinen Planeetta IX tai Nibiru, jonka olemassaoloa ei olla todistettu.  </p>
+<p> Maapallo sijaitsee “kultaisella vyöhykkeellä”, joka tarkoittaa, että se on elinkelpoisella vyöhykkeellä isäntätähdestä, tässä tapauksessa Auringosta. Näiden välinen keskietäisyys on yksi au eli astronominen yksikkö, joka vastaa n. 149,6 miljoonaa (149,597,871) kilometriä. </p>
+<p> Planeettojen koot vaihtelevat radikaalisti riippuen onko kyseessä kivi- vai kaasuplaneetta. Osa voi olla vain 4,510,6 kilometriä (esim. Kepler-37b), kun jotkut voivat olla jopa ällistyttävät 986,589,9 kilometriä (esim. HD 100546 B) eli noin 70% oman Aurinkomme kokoluokkaa. Alle neljän tuhannen kilometrin kokoiset kappaleet ovat kääpiöplaneettoja esimerkiksi Pluto ja Eris.   </p>
+<p> Planeetoilla voi olla todella suotuisat olosuhteet elämälle, esim. Maapallo tai aivan mahdottomat, kuten Venus, jossa olosuhteet ovat helvetilliset. Venuksen keskilämpötila on 480 Celsiusastetta ja siellä vallitsee 92 kertainen maanpaine. Vesisateiden sijaan siellä sataa rikkihappoa taivaalta. Kuitenkin Venuksen pilvet ovat suotuisat elämälle, mutta silti hyvin raju planeetta, jos elämää etsii.   </p>
+<p> Mars on omasta aurinkokunnastamme paras mahdollinen planeetta maankaltaistamiseen. Sen keskilämpötila on kuitenkin hyytävät -67 Celsiusastetta päiväsaikaan. Yöllä siellä saattaa olla jopa yli -100 Celsiusastetta.   </p>
+<p> Planeettojen tyypillinen ikä on 1 – 10 miljardia vuotta, mutta voivat olla nuorempia tai vanhempia. Planeetat voivat elää useita biljoonia vuosia. Maapallon ikä on arvioltaan noin 4,5 miljardia vuotta. Linnunradassa on arvioltaan yli biljoona planeetta, joista ainakin yhdeltä löytyy kehittynyttä elämää, kuin Maapallolta.  </p>
+<hr>
+<p><b> Aurinkokunnan planeetat - <a href="aurinkokunta.html" style="color:red;">Aurinkokunta</a></b></p>
+<table>
+  <tr>
+    <th>Nimi</th>
+    <th>Päiväntasaajan halkaisija (km)</th>
+    <th>Massa (kg)</th>
+	<th>Keskietäisyys Aurinkoon (km/au)</th>
+	<th>Kuiden lukumäärä</th>
+  </tr>
+  <tr>
+    <td>Merkurius</td>
+    <td>4,897,4 km</td>
+    <td>330,104 triljoonaa kg</td>
+	<td>57 909 227 km / 0,387 au</td>
+	<td>0</td>
+  </tr>
+  <tr>
+    <td>Venus</td>
+    <td>12,104 km</td>
+    <td>4.8685 kvadriljoonaa kg</td>
+	<td>108,208,926 km / 0,72 au</td>
+	<td>0</td>
+  </tr>
+  <tr>
+    <td>Maapallo</td>
+    <td>12,756,28 km</td>
+    <td>5.9737 kvadriljoonaa kg</td>
+	<td>149,597,871 km / 1 au</td>
+	<td>1</td>
+  </tr>
+  <tr>
+    <td>Mars</td>
+    <td>6,792,4 km</td>
+    <td>641,850 triljoonaa kg</td>
+	<td>227,920,000 km / 1,52 au</td>
+	<td>2</td>
+  </tr>
+  <tr>
+    <td>Jupiter</td>
+    <td>142,984 km</td>
+    <td>1,899 kvadriljoona kg</td>
+	<td>778,412,010 km / 5,2 au</td>
+	<td>79</td>
+  </tr>
+  <tr>
+    <td>Saturnus</td>
+    <td>120,536 km</td>
+    <td>568,8 kvadriljoonaa kg</td>
+	<td>1,426,725,400 km / 9,58 au</td>
+	<td>65</td>
+  </tr>
+  <tr>
+    <td>Uranus</td>
+    <td>51,118 km</td>
+    <td>86,86 kvadriljoonaa kg</td>
+	<td>2,870,972,200 km / 19,19 au</td>
+	<td>27</td>
+  </tr>
+  <tr>
+    <td>Neptunus</td>
+    <td>49,572 km</td>
+    <td>102,4 kvadriljoonaa kg</td>
+	<td>4,498,252,900 km / 30 au</td>
+	<td>14</td>
+  </tr>
+</table>
+<br>
+<p> Triljoona (<i> 18 nollaa </i>), kvadriljoona (<i> 24 nollaa </i>) </p>
+<hr>
+<p><b> Planeettoja: </b><a href=""> Merkurius</a>, <a href="">Venus</a>, <a href="">Maa</a>, <a href="">Mars</a>, <a href="">Jupiter</a>, <a href="">Saturnus</a>, <a href="">Uranus</a>, <a href="">Neptunus</a>, <a href="">Nibiru</a>, <a href="">Tykhe</a>, <a href="">Kepler-37b</a>, <a href="">Kepler-442b</a>, <a href="">Kepler-186f</a>, <a href="">Kepler-10c</a>, <a href="">Tau Ceti f</a>, <a href="">Proxima b</a>, <a href="">HD 100546b</a>, <a href="">Trappist-1 e</a>, <a href="">Wolf-1061c</a>, <a href="">HD 189733b</a>, <a href="">CoRoT-exo-3b</a>, <a href="">CoRoT-7b</a>, <a href="">KOI 1686.01</a>, <a href="">Gliese 876d</a>, <a href="">Gliese 667 Cc</a>, <a href="">Gliese 581b</a>, <a href="">Gliese 710b</a>,</p>
+<hr>
+<hr>
+<br>
+
+<p><b> Kuut:</b> </p>
+<p> Kuut ovat planeettojen kiertolaisia aivan kuin planeetat tähtien. Kuiden tyypillinen kokoluokka on kymmenestä kilometristä jopa 50 tuhanteen kilometriin eli Neptunuksen tai Uranuksen kokoluokkaa.   </p>
+<p> Kuilla on vaikutusta vuodenaikoihin. Kuut toimivat ikään kuin vuodenaikojen säätelyjärjestelmänä planeetalle, esimerkiksi Kuu maapallolle. Ilman Kuuta meillä ei olisi vuodenaikoja. Kuilla on myös todennäköisemmin elämää kuin itse planeetoilla, esimerkiksi Jupiterin kuu Europa ja Saturnuksen kuut Enceladus ja Titan.   </p>
+<p> Meidän Kuun uskotaan muodostuneen Marsin kokoisen Theia-planeetan ja Maapallon yhteentörmäyksestä Maapallon alkuaikoina. Kuut voivat olla muodostuneita planeettojen ympärille alkuaikoina aivan kuin Maapallon kanssa kävi tai ne voivat olla kaapattuja, esimerkiksi Jupiter kalastaa kaikki lähellensä tulevat murikat matkaansa ja tämä sama pätee muillakin kaasujättiläisillä. </p>
+<p> Kuut ovat painovoimaltaan ja magneettikentältään useimmiten planeettoja huomattavasti heikompia, kuin myös ilmakehän koostumukseltaan. Kuita on todennäköisesti enemmän kuin itse planeettoja.  </p>
+<p> Omasta aurinkokunnastamme löytyy hyvin ärhäkkä kuu nimeltä Io, joka on Jupiterin yksi suurimmista kuista. Se on vulkaaniselta toiminnaltaan aktiivisin ja värikkäin näky aurinkokunnassamme. Tämän uskotaan johtuneen Jupiterin ja sen muiden kuiden välisestä painovoimien yhteisvaikutuksista Ion jäädessä niiden väliin. Jupiter muokkaa kuutansa jatkuvasti eri muotoihin ja näin tekee siitä hyvin aktiivisen kuun.   </p>
+<p> Kuut ovat massaltaan ja halkaisijaltaan huomattavasti planeettoja kevyempiä, mutta Merkurius-planeetan ja Titan-kuun välillä on jotain kummaa. Titan kuu on toisiksi suurin kuu koko Aurinkokunnassamme heti Ganymede-kuun jälkeen. Titanin keskitiheys on kuitenkin Merkuriusta pienempi, mutta kokonsa ja massansa puolesta suurempi.   </p>
+<p> Kuille ominaista on niiden tasapainottava vaikutus, sekä vuorovesi-ilmiöt. Tämä ilmenee esimerkiksi Maapallolla vuoksi- ja luodeilmiöinä eli nousu- ja laskuvesi-ilmiöinä.   </p>
+<p> Kuulentoja ollaan tehty vuodesta 1969 lähtien ja niitä ollaan tekemässä lisää. Kuutukikohtia on kehitteillä esimerkiksi Nasan ja Gygsuksen toimesta. Japanilaisetkin ovat laittaneet näppinsä peliin Kuumme suhteen.   </p>
+<hr>
+<p><b> Aurinkokunnan suurimmat kuut - <a href="aurinkokunta.html" style="color:red;">Aurinkokunta</a></b></p>
+<table>
+  <tr>
+    <th>Nimi</th>
+    <th>Päiväntasaajan halkaisija (km)</th>
+    <th>Massa (kg)</th>
+	<th>Keskietäisyys planeettaan (km/au)</th>
+	<th>Planeetta</th>
+  </tr>
+  <tr>
+    <td>Kuu</td>
+    <td>3,474,2 km</td>
+    <td>73,420 triljoonaa kg</td>
+	<td>384,400 km / 0,002 au</td>
+	<td>Maapallo</td>
+  </tr>
+  <tr>
+    <td>Io</td>
+    <td>3,642,2 km</td>
+    <td>89,000 triljoonaa kg</td>
+	<td>421,700 km / 0,003 au</td>
+	<td>Jupiter</td>
+  </tr>
+  <tr>
+    <td>Kallisto</td>
+    <td>4820,6 km</td>
+    <td>110,000 triljoonaa kg</td>
+	<td>1,882,709 km / 0,01 au</td>
+	<td>Jupiter</td>
+  </tr>
+  <tr>
+    <td>Titan</td>
+    <td>5,150 km</td>
+    <td>134,500 triljoonaa kg</td>
+	<td>1,221,931 km / 0,008 au</td>
+	<td>Saturnus</td>
+  </tr>
+  <tr>
+    <td>Ganymede</td>
+    <td>5,262,4 km</td>
+    <td>150,000 triljoonaa kg</td>
+	<td>1,070,412 km / 0,007 au</td>
+	<td>Jupiter</td>
+  </tr>
+</table>
+<br>
+<p><b> Kuita: </b><a href="">Kuu</a>, <a href="">Phobos</a>, <a href="">Deimos</a>, <a href="">Io</a>, <a href="">Europa</a>, <a href="">Kallisto</a>, <a href="">Ganymede</a>, <a href="">Enceladus</a>, <a href="">Titan</a>, <a href="">Mimas</a>, <a href="">Triton</a>, </p>
+<hr>
+<hr>
+<br>
+<p><b> Tähdet:</b> </p>
+<p> Tähdet ovat avaruuden yksi yleisimmistä asioista ja kohteista. Niiden massa voi vaihdella suuresti kvadriljoonasta kilogrammasta jopa septiljooniin kilogrammoihin. Tähtityyppejä on monenlaisia: keskiluokan tähdet, kääpiötähdet, ruskeat kääpiötähdet, valkoiset kääpiötähdet, neutronitähdet eli kuolleet tähdet, joita muodostuu supernova-räjähdyksen yhteydessä. Joskus voi myös muodostua musta aukko. Näiden kappaleiden massat ja tiheydet ovat tavallisia tähtiä huomattavasti suurempia, jopa miljardeja kertoja suurempia. Nuppineulallinen neutronitähteä painaa miljoonia kilogrammoja. Ne ovat yleensä 10-30 kilometriä halkaisijaltaan, mutta ovat massaltaan omaa tähteämme suurempia ja tiheämpiä.  </p> 
+<p> Tähdet syntyvät ja muodostuvat kaasusta ja pölystä. Se edellyttää tietynlaiset olosuhteet ja lämpötilat. Massaltaan tähdet ovat yleensä planeettoja merkittävästi suurempia, mutta voivat olla läpimitaltaan pienempiäkin.   </p> 
+<p> Tähdet säteilevät ihmisille haitallista säteilyä esimerkiksi UV-säteilyä ja gammasäteilyä, jotka ovat ionisoivaa (läpitunkevaa)säteilyä. Tähtien elinkaari määräytyy sen massa ja koon (hydrostaattisen tasapainon) mukaan. Mitä pienempi tähti on kyseessä, esimerkiksi kääpiötähti niin sitä pidempään se elää, jopa kymmenen biljoonaa vuotta. Mitä suurempi tähti niin sitä nopeammin se kuluttaa sen energian “vedyn”. <a href="">Uy Scutin</a> kokoluokkaa olevat tähdet ovat oletettu eliniältään vain kymmenen miljoonaa vuotta. Oma tähtemme, <a href="aurinko.html">Aurinko</a> voi elää kymmenen miljardia vuotta, mikä on merkittävästi suurempi. Aurinkomme on keskiluokan tähti, G2V.   </p> 
+<p> Tähtien väliset etäisyydet ovat useita valovuosia. Valovuosi on (299,792,458 km x 60 s x 60 min x 24h x 365 d =) 9,454,254,955,4 kilometriä, pyöristettynä 9,45 biljoonaa kilometriä. Maata lähin tähti on <a href="aurinko.html">Aurinko</a>, mutta Aurinkoa lähin tähti on <a href="">Alfa Kentauri A</a>, Alfa Kentaurin kolmoistähtijärjestelmästä noin 4,24/4,36 valovuoden päästä. Lähin yksittäinen tähti on punainen kääpiötähti, Barnard, joka sijaitsee kuuden valovuoden päässä meistä.   </p> 
+<p> Suuret tähdet kuolevat räjähtäen supernovina muodostaen joko neutronitähden tai mustan aukon. Tähden pitää olla yli kaksi kertaa aurinkoa raskaampi, jotta ne voivat räjähtää supernovina. Oma aurinkomme ei kykene räjähtämään supernovana, mutta viiden miljardin vuoden kuluttua, kun se on kuluttanut kaiken polttoaineensa eli vedyn. Alkaa se kuluttamaan heliumia polttoaineenaan. Siinä vaiheessa sen koko laajenee 1,4 miljoonasta kilometristä jopa 300 miljoonaan kilometriin. Sen koko suurenee niin paljon, että sen uskotaan ulottuvan maahan asti, nielaisten samassa Merkuriuksen, Venuksen ja hyvin todennäköisesti Maan.   </p> 
+<p> Tähtien pintalämpötila vaihtelee sen massan ja tiheyden perusteella. Tähden väri kertoo sen lämpötilasta. Jos tähti on punainen sen lämpötila on useimmiten noin 3,000 Celsiusastetta. Oma tähtemme on valkoinen ja pintalämpötilaltaan 5,505 Celsiusastetta. Kirkkaan siniset tähdet taas ovat kaikista kuumimpia, esimerkiksi Jousimiehen tähdistössä sijaitseva (Wolf-Rayet) <a href="">WR102</a>, jonka pintalämpötila on huikeat 210,000 Celsiusastetta.   </p> 
+<p> Tähtien koko voi vaihdella 100 tuhannen kilometrin ja 2,5 miljardin kilometrin välillä. Suurin tunnetuin tähti on 9,5 tuhannen valovuoden päässä sijaitsevassa Kilven tähdistössä oleva Uy Scuti –niminen hyperjättiläinen, jonka massa on vain noin 8,5-17 aurinkoa, mutta läpimitaltaan jopa 2,5 miljardia kilometriä. Pintalämpötilaltaan 3,000 – 5,000 Celsiusasteen luokkaa, mutta sen sisään mahtuisi jopa 5 miljardia aurinkoa.   </p> 
+<p> Kirkkain ja massaltaan suurin tähti on (Wolf-Rayet) <a href="">R136A1</a>, joka on 8,7 miljoonaa kertaa Aurinkoa kirkkaampi, sekä on massaltaan 265 auringon veroinen.   </p> 
+<p> Kehittyvä alkeistähti on nimeltään prototähti. Kääpiötähtiä uskotaan olevan eniten koko Linnunradassa. Linnunradassa on tähtiä arvioltaan 100–400 miljoonaa, joista suurin osa on punaisia kääpiötähtiä. </p> 
+<hr>
+<p><b> Esimerkki tähtiä - <a href="" style="color:red;">Tähdet</a></b></p>
+<table>
+  <tr>
+    <th>Tähti</th>
+    <th>Päiväntasaajan halkaisija (km)</th>
+    <th>Massa (kg/Aurinkoa)</th>
+	<th>Etäisyys Maahan (au/vv)</th>
+	<th>Lämpötila (Celsius)</th>
+  </tr>
+  <tr>
+    <td>Aurinko</td>
+    <td>1,392,200 km</td>
+    <td>1,9891 kvintiljoonaa kg / 1 A</td>
+	<td>1 au / 0,00015823 vv</td>
+	<td>5,505 Celsiusastetta</td>
+  </tr>
+  <tr>
+    <td>Alfa Kentauri A</td>
+    <td>1,712,406 km</td>
+    <td>2,1880 triljoonaa kg / 1,1 A</td>
+	<td>275,542.3678 au / 4,22 vv</td>
+	<td>5,790 Celsiusastetta</td>
+  </tr>
+  <tr>
+    <td>Barnard</td>
+    <td>278,440 km</td>
+    <td>318,256 kvadriljoonaa kg / 0,16 A</td>
+	<td>379,186.7447 au / 6 vv</td>
+	<td>3,134 Celsiusastetta</td>
+  </tr>
+  <tr>
+    <td>Vy Canis Majoris</td>
+    <td>1,976,924,000 km</td>
+    <td>33,8147 kvintiljoonaa kg / 17 A</td>
+	<td>241,415,560,0 au / 3,820 vv</td>
+	<td>3,490 Celsiusastetta</td>
+  </tr>
+  <tr>
+    <td>R136a1</td>
+    <td>42,000,000 km</td>
+    <td>527,1115 kvintiljoonaa kg / 265 A</td>
+	<td>10,301,239,000 au / 163,000 vv</td>
+	<td>50,000 Celsiusastetta</td>
+  </tr>
+</table>
+<br>
+<p><b> Tähtiä: </b><a href="">Aurinko</a>, <a href="">Alfa Kentauri A</a>, <a href="">Barnard</a>, <a href="">Tau Ceti</a>, <a href="">Uy Scuti</a>, <a href="">VY Canis Majoris</a>, <a href="">R136A1</a>, <a href="">Westerlund 1-26</a>, <a href="">PSR J2144-3933</a>, <a href="">Sirius A, B</a>, <a href="">Aldebaran</a>, </p>
+<hr>
+<hr>
+<br>
+<p><b> Mustat aukot:</b> </p>
+<p> Musta aukko on ylivoimaisesti tiheydeltään, massaltaan ja painovoimaltaan massiivisin ja voimakkain avaruuden tiheyskeskittymä. Se muodostuu tähden jäänteistä supernova tai hypernova räjähdyksen keskelle.   </p>
+<p> Mustilla aukoilla uskotaan olevan ääretön painovoima, jota mikään meille tuntema voima ei vedä vertoja, ei edes valo, sillä sen pakonopeus ylittää valonnopeuden. Mustia aukkoja ei pystytä näkemään, mutta valon taittumisesta ja tähtien liikeratojen radikaaleista muutoksista voi päätellä niiden olemassaolon.   </p>
+<p> Niiden uskotaan toimivan teleportteina toisiin ulottuvuuksiin ja universumeihin, mutta siitä ei ole mitään pitäviä todisteita. Mikään ei näet pakene sinne jouduttuaan. Mustia aukkoja on aivan kaikkialla universumissa, jopa oman galaksimme, Linnunradan keskellä. Ne ovat yksi vanhimmista kohteista koko universumissa. </p> 
+<p> Mustien aukkojen oletetaan pitävän galaksit kasassa. Mustat aukot keräävät ympärillensä kaiken, mikä tulee liian lähelle niitä. Ne voivat kuitenkin täyttyä liiallisesta materiasta ja täten ne purkautuvat vapauttaen käsittämättömät määrät energiaa avaruuteen muodostaen kvasaareja, jotka ovat kirkkaimpia ilmiöitä tuntemassamme universumissa. Mustat aukot eivät kuitenkaan tuhoudu tähän, eikä niitä voi tuhota mitenkään.   </p>
+<p> Mustat aukot toimivat avaruuden aikakoneina hidastaen aikaa niin, että tunti mustan aukon lähettyvillä vastaisi 100 maan vuotta. Galaksimme keskellä sijaitseva musta aukko, *Sagittarius A on galaksimme kirkkain kohde ja sen näkee paljain silmin tähtitaivaalla keskellä Linnunradan keskustaa hyvin kirkkaana kohteena. </p> 
+<p> Suurin löydetty musta aukko sijaitsee Ajokoiran (Canes Venaticin) tähdistössä ja tunnetaan nimellä TON 618. Sen massan uskotaan vastaavan jopa 66 miljardia Aurinkoa. Kilogrammoissa se olisi noin 131,280,6 sekstiljoonaa (36 nollaa).   </p>
+<hr>
+<br>
+<p><b> Madonreiät:</b> </p>
+<p>  </p>
+<hr>
+<br>
+<p><b> Galaksit:</b> </p>
+<p>  </p>
+<hr>
+<br>
+<p><b> Universumi:</b> </p>
+<p>  </p>
+<hr>
+<br>
+<p><b> Multiversumi:</b> </p>
+<p>  </p>
+</div>
+
+
+<div id="footer">
+<br>
+<p style="text-align:center; color:white;"> Kaikki oikeudet pidätetään © Gygsus 2019 </p>
+</div>
+
+</body>
+</html>
